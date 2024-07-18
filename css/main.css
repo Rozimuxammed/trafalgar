@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 10px;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .container .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+nav .container .logo span {
+    width: 20px;
+    height: 20px;
+    background-color: #3FA2F6;
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+nav .container .logo p {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+nav .container .links ul {
+    display: flex;
+    align-content: center;
+    gap: 30px;
+}
+
+nav .container .links ul li {
+    list-style: none;
+}
+
+nav .container .links ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #959497;
+    font-size: 18px;
+}
+
+nav .container .links ul li:nth-child(1) a {
+    color: #040404;
+}
+
+nav .container .links ul li a:active {
+    color: #030303;
+}
+
+.hero {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.hero-img {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .container .hero-text h1 {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.hero .container .hero-text p {
+    color: #7D7987;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.hero .container .hero-text button {
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 56px;
+    background-color: #458FF6;
+    color: #fff;
+    border-radius: 55px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.services {
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.services .container .service-text {
+    margin-bottom: 90px;
+}
+
+.services .container .service-text h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 36px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+.services .container .service-text .border-bottom {
+    width: 50px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.services .container .service-text p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #7D7987;
+    line-height: 25px;
+    width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services .container .service-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .container .service-boxs .service-box {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 10px 40px 50px #E5E9F666;
+    padding: 200px 30px;
+}
+
+.service-img1 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+.service-img2 {
+    position: absolute;
+    bottom: 300px;
+    right: 120px;
+}
+
+.services .container .service-boxs .service-box .service-box-img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.services .container .service-boxs .service-box h1 {
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+.services .container .service-boxs .service-box p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #7D7987;
+    line-height: 28px;
+}
+
+.services .container .service-boxs button {
+    width: 300px;
+    border: 1px solid #458FF6;
+    background-color: transparent;
+    color: #458FF6;
+    border-radius: 55px;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.download .container,
+.check .container {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+.download .container .download-img img,
+.check .container .check-img img {
+    width: 550px;
+    height: 550px;
+    object-fit: contain;
+}
+
+.download .container .download-text h1,
+.check .container .check-text h1 {
+    font-size: 65px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.download .container .download-text .download-text-border,
+.check .container .check-text .check-text-border {
+    width: 40px;
+    border: 1.5px solid #000000;
+    margin-bottom: 30px;
+}
+
+.download .container .download-text p,
+.check .container .check-text p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #7D7987;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.download .container .download-text button,
+.check .container .check-text button {
+    width: 300px;
+    border: 1px solid #458FF6;
+    background-color: transparent;
+    color: #458FF6;
+    border-radius: 55px;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.check .container .check-text button img {
+    width: 10px;
+    height: 10px;
+}
+
+.articles {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.articles-element {
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+}
+
+.articles .container {
+    position: relative;
+    background: linear-gradient(#67C3F3, #5A98F2);
+    border-radius: 24px;
+    padding: 70px 10px;
+    height: 450px;
+}
+
+.articles .container .articles-text h1 {
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: .8px;
+    margin-bottom: 30px;
+}
+
+.articles .container .articles-text .articles-text-border {
+    width: 70px;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.articles-container-img {
+    position: absolute;
+    top: 7px;
+    right: -50px;
+}
+
+.articles-element {
+    position: absolute;
+    bottom: 120px;
+}
+
+.articles .container .articles-text .articles-img {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.articles .container .articles-text .articles-img .articles-img-name {
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.article-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.articles-title {
+    width: 400px;
+    color: #ffffffe8;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+.articles-bottom-scrol {
+    width: 400px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.articles-bottom-scrol img {
+    width: 40px;
+    height: 40px;
+}
+
+.articles-bottom-scrol span {
+    width: 10px;
+    height: 10px;
+    background-color: #9abff3;
+    border-radius: 50%;
+}
+
+.articles-bottom-scrol span:nth-child(2) {
+    background-color: #5B9BF3;
+}
+
+.medical {
+    margin: 40px;
+    position: relative;
+}
+
+.medical .container .medical-text h1 {
+    text-align: center;
+    font-size: 36px;
+    word-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.medical .container .medical-text .medical-text-border {
+    width: 40px;
+    border: 1px solid #000000;
+    margin: 40px auto;
+}
+
+.medical .container .medical-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+
+}
+
+.medical .container .medical-cards .medical-card {
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 40px 50px #E5E9F666;
+}
+
+.medical .container .medical-cards .medical-card img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 20px 20px 0% 0%;
+}
+
+.medical .container .medical-cards .medical-card button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    outline: none;
+    border: none;
+    color: #5A98F2;
+    background-color: transparent;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.medical .container .medical-cards .medical-card button img {
+    width: 10px;
+    height: 10px;
+    margin-top: 35%;
+}
+
+.medical .container .medical-cards .medical-card h1 {
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0px 20px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.medical .container .medical-cards .medical-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    font-weight: 300;
+    padding: 0px 20px;
+    width: 300px;
+}
+
+.medical-cards .medical-square {
+    position: absolute;
+    top: -43px;
+    bottom: 0;
+    left: 0px;
+    z-index: -1;
+}
+
+.medical-cards .medical-oval2 {
+    position: absolute;
+    right: -120px;
+    z-index: -1;
+}
+
+.medical .container .medical-btn {
+    outline: none;
+    border: 1px solid #458FF6;
+    color: #5A98F2;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 15px 0px;
+    width: 150px;
+    margin: 30px 50%;
+    transform: translate(-50%);
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    background: linear-gradient(#67C3F3, #5A98F2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .container .footer-company {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container .footer-hero {
+    width: 40%;
+}
+
+footer .container .footer-hero .footer-hero-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+footer .container .footer-hero .footer-hero-logo h1 {
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 30.12px;
+    font-weight: 400;
+}
+
+footer .container .footer-hero .footer-hero-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+footer .container .footer-hero p {
+    width: 330px;
+    line-height: 30px;
+    color: #ffffffde;
+    margin-bottom: 30px;
+}
+
+footer .container .footer-company .footer-left {
+    line-height: 40px;
+}
+
+footer .container .footer-company .footer-left h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer .container .footer-company .footer-left ul li {
+    list-style: none;
+    color: #ffffffde;
+}
+
+.footer-img {
+    position: absolute;
+    right: 30px;
+    top: -70px;
+}
+
+.footer-img2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
